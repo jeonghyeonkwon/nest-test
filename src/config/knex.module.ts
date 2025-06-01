@@ -21,6 +21,7 @@ export const KNEX_TOKEN = 'KNEX_CONNECTION';
             password: configService.get<string>('DB_PASSWORD'),
             database: configService.get<string>('DB_NAME'),
           },
+          debug: true,
         });
       },
       inject: [ConfigService],
