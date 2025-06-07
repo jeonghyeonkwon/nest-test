@@ -1,6 +1,7 @@
 export class DrivenTable {
   id: string;
-  driving_id: string;
+  drivingId: string;
+  orderNumber: number;
   name: string;
-  is_del: string;
+  isDel: string;
 }
